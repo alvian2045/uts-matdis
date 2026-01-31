@@ -14,7 +14,7 @@ func Matrix1() {
 	matrixA := make([][]int, ordo)
 	matrixB := make([][]int, ordo)
 	perkalian := make([][]int, ordo)
-
+	// lupping
 	for i := 0; i < ordo; i++ {
 		matrixA[i] = make([]int, ordo)
 		matrixB[i] = make([]int, ordo)
